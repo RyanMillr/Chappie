@@ -136,7 +136,7 @@ namespace ChappieMonogame
                 if (triggers.Right != _state.right)
                 {
                     _requestManager.SendRequest(command.speed, (Math.Round(255 * triggers.Right)).ToString());
-                    Debug.Print("Right: " + (Math.Round(255 * triggers.Right)));
+                    Debug.Print("Right Trigger: " + (Math.Round(255 * triggers.Right)));
                     _state.right = triggers.Right;
                 }
 
